@@ -1,0 +1,338 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 1-Mar-2020, 7:22:28 AM
+    Author     : eleanor
+*/
+header, .colmask, .col1, footer, body, .nav, .nav_button {
+
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: darkgoldenrod;
+}
+body{
+    border: #FFFFFF 1px solid;
+
+}
+
+header {
+    margin-top: 6%;
+    width: 100%;
+    text-align: center;
+}
+
+header p {
+    font-family: 'Arial, Helvetica, sans-serif;';
+    font-weight: 900;
+    font-size: 90px;
+    color: #006699;
+
+}
+ p1{
+    font-family: 'Arial, Helvetica, sans-serif;';
+    font-weight: 600;
+    font-size: 40px;
+    color: #009999;
+
+}
+
+
+
+
+form{
+    text-align: center;
+}
+
+.colmask {
+    width: 100%;
+    text-align: center;
+}
+
+.col1 {
+    width: 95%;
+}
+
+input {
+  width: 30%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  color: #0047AB;
+  resize: vertical;
+}
+
+input[type=submit] {
+    color: #0047AB;
+
+}
+.message{
+    height: 200px;
+    width: 30%;
+    margin: 10px 0px;
+    border-radius: 5%;
+}
+
+div.message_sent{
+    text-align: center;
+    font-family: 'Spartan';
+}
+
+input.button {
+    border-radius: 80px;
+    background: linear-gradient(to right, #13a5b2, #175d9d) !important;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+
+    font-size: 18px;
+    padding: 15px;
+    width: 20.5%;
+    transition: all 0.4s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+input.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+}
+input.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: -20px;
+    transition: 0.5s;
+}
+input.button:hover {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+    padding-left: 90px;
+}
+input.button:hover:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.nav_button {
+    background-color: #FFFFFF;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border: 1px solid #3F4242;
+    border-radius: 60px;
+    float: right;
+    margin: 5px;
+    font-family: 'Spartan';
+}
+
+.example_f {
+    border-radius: 80px;
+    background: linear-gradient(to right, #67b26b, #4ca2cb) !important;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.4s;
+    cursor: pointer;
+    margin: 5px;
+}
+.example_f span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+}
+.example_f span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.example_f:hover span {
+    padding-right: 25px;
+}
+.example_f:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.other {
+    background-color: 67b26b;
+    border: 1px solid #3F4242;
+    border-radius: 60px;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    float: right;
+    margin: 10px;
+    margin-top: 0px;
+}
+
+.other a{
+    display: block;
+    position: relative;
+    top: 30%;
+    text-decoration: none;
+    font-family: 'Spartan';
+    font-weight: 900;
+    font-size: 13px;
+    color: white;
+}
+
+
+
+.nav_button a{
+    display: block;
+    position: relative;
+    top: 30%;
+    text-decoration: none;
+    font-family: 'Spartan';
+    font-weight: 900;
+    font-size: 15px;
+    background-color:#71b9f0 ;
+    color: #175d9d;
+
+}
+
+.nav_button:hover{
+    background-color: #C2CCCC;
+}
+
+.no_account{
+    color:blue;
+}
+
+.result_count {
+
+    padding: 0px;
+    text-align: center;
+    font-family: 'Spartan';
+    position: absolute;
+    top: 0px;
+    margin-top :-40px;
+    left: 0px;
+    color: #725E45;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.rt {
+position: absolute;
+top: -10px;
+font-family: 'Spartan';
+color: #725E45;
+float: left;
+font-size: 15px;
+}
+
+.select {
+    background-color: #9B9FA2;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #3F4242;
+    border-radius: 30px;
+    float: right;
+    margin: 5px 20px;
+    padding-bottom: 25px;
+    top: -20px;
+
+}
+
+.select:hover{
+    width:101px; height: 31px;
+    border-radius: 31px;
+    background-color: #C2CCCC;
+}
+
+.data{
+    text-align: left;
+    font-family: 'Spartan';
+    color: #3F4242;
+}
+.date{
+    font-size: 10px;
+}
+.title {
+    font-size: 24px;
+    color: #1f71ff;
+}
+
+.userTitle {
+    font-size: 18px;
+}
+
+.infoToShare{
+    color: black;
+    font-family: 'Spartan';
+}
+
+.checkbox{
+    width: 3%;
+    float: left;
+}
+
+table {border: solid #9B9FA2; margin: auto;border-collapse: collapse;}
+th{border: solid #9B9FA2; padding: 15px; text-align: left;}
+th.content{border:solid #9B9FA2; padding-bottom: 30px; text-align: left;}
+
+footer {
+    width: 100%;
+    text-align: center;
+    font-family: 'Spartan';
+
+}
+
+.end_hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+
+.btn-group button {
+    background-color: #13a5b2; /* Green background */
+    border: 1px solid #175d9d; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #3e8e41;
+}
